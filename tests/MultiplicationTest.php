@@ -24,7 +24,7 @@ class MultiplicationTest extends TestCase
     public function testMultiplicationFausse()
     {
         $addi = new Multiplication(2, 6);
-        $this->assertSame(8, $addi->multipli());
+        $this->assertSame(12, $addi->multipli());
     }
 
 
