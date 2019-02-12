@@ -9,7 +9,7 @@ class AdditionTest extends TestCase
 
     public function testAdditionNormale()
     {
-        $addi = new Addition(1, 2);
-        $this->assertSame(3, $addi->calcul());
+        $addi = new Addition(2, 2);
+        $this->assertSame(4, $addi->calcul());
     }
 }
