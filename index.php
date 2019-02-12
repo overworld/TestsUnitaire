@@ -1,11 +1,13 @@
 <?php
 
 include "src/Addition.php";
+include "src/Multiplication.php";
 
-$thecalcul = new Addition(5,8);
+$calcule = new Addition($_POST['nb1'],$_POST['nb2']);
 
-echo $thecalcul->calcul();
+echo $calcule->calcul();
 
+?>
 
 
 
