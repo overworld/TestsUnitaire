@@ -24,4 +24,11 @@ class Addition
         return $this->nombreun + $this->nombredeux;
     }
 
+
+    function fileCSV($nb1,$nb2,Addition $operation){
+        $result =  $operation->calcul();
+        echo "ça fonctionne";
+        return $tab[] = array($nb1,$nb2,$operation,$result);
+    }
+
 }

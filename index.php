@@ -3,9 +3,17 @@
 include "src/Addition.php";
 include "src/Multiplication.php";
 
-$calcule = new Addition($_POST['nb1'],$_POST['nb2']);
+$number1 =($_POST['nb1']);
+$number2 =($_POST['nb2']);
+$addy = new Addition($number1,$number2);
 
-echo $calcule->calcul();
+
+$addy->fileCSV($number1,$number2,$addy);
+
+
+
+
+
 
 ?>
 
