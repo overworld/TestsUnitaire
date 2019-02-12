@@ -2,7 +2,6 @@
 
 use PHPUnit\Framework\TestCase;
 require __DIR__."/../src/Multiplication.php";
-use Multiplication;
 
 
 class MultiplicationTest extends TestCase

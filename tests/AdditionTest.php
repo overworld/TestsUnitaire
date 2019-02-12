@@ -1,7 +1,6 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Addition;
 
 
 class AdditionTest extends TestCase
