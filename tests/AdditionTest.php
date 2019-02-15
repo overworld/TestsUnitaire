@@ -27,7 +27,7 @@ class AdditionTest extends TestCase
 
     public function testFileCSV()
     {
-        $chemn = "./resultat.csv";
+        $chemn = "C:\wamp64\tmp\php3827.tmp";
         $this->assertSame(!null, Addition::fileCSV($chemn));
     }
 
