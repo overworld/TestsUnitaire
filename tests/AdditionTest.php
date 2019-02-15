@@ -24,19 +24,12 @@ class AdditionTest extends TestCase
         $this->assertSame(40000, $addi->calcul());
     }
 
-/*    public function testFichierCSV(){
-        $addi = new  Addition(300, 300);
-        $this->assert
-    }*/
 
-
-
-
-
-
-
-
-
+    public function testFileCSV()
+    {
+        $chemn = "./resultat.csv";
+        $this->assertSame(!null, Addition::fileCSV($chemn));
+    }
 
 
 }

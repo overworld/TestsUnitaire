@@ -22,6 +22,12 @@ class Multiplication
     public function multipli()
     {
         return $this->nombreun * $this->nombredeux;
+
     }
 
+
+    static public function calcul2($nb1, $nb2)
+    {
+        return $nb1 * $nb2;
+    }
 }
