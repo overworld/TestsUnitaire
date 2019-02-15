@@ -11,8 +11,9 @@ if (!empty($_POST['nb1'])) {
 
 }
 
-
-$tab = fileCSV($_FILES['file']['tmp_name']);
+if (!empty($_FILES['file']['tmp_name'])) {
+    $tab = fileCSV($_FILES['file']['tmp_name']);
+}
 
 
 function fileCSV($path)
